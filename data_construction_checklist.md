@@ -2,7 +2,7 @@ Data Extraction and Cohort Construction Checklist
 
 This checklist defines required verification steps during cohort construction. No analysis will proceed until all items are explicitly confirmed.
 
-Data Access Verification
+- Data Access Verification
 
 Confirm SEER–Medicare data version and release year
 
@@ -10,7 +10,7 @@ Confirm linkage completeness for tumor registry and claims files
 
 Confirm availability of cause-specific mortality data
 
-Cohort Entry
+- Cohort Entry
 
 Verify incident stage II colon adenocarcinoma cases only
 
@@ -22,7 +22,7 @@ Verify continuous Medicare Parts A and B enrollment in the 12 months prior to su
 
 Confirm exclusion of Medicare Advantage enrollees
 
-Time Zero Validation
+- Time Zero Validation
 
 Confirm surgical resection date is available and complete
 
@@ -32,7 +32,7 @@ Exclude deaths within 30 days post-surgery
 
 Confirm chemotherapy exposure is assessed strictly after time zero
 
-Exposure Definition
+- Exposure Definition
 
 Verify chemotherapy initiation codes correspond to fluoropyrimidine-based regimens
 
@@ -42,7 +42,7 @@ Verify no misclassification of neoadjuvant therapy as adjuvant
 
 Confirm observation group has no chemotherapy claims within the assignment window
 
-High-Risk Feature Validation
+- High-Risk Feature Validation
 
 Verify T stage coding and mapping to T4
 
@@ -52,7 +52,7 @@ Verify lymph node count variable and threshold (<12 nodes)
 
 Confirm at least one high-risk feature per patient
 
-Outcome Ascertainment
+- Outcome Ascertainment
 
 Verify colon cancer–specific mortality coding in SEER
 
@@ -60,7 +60,7 @@ Confirm death dates are complete and consistent
 
 Cross-check overall mortality as a backup endpoint
 
-Covariate Timing
+- Covariate Timing
 
 Confirm all baseline covariates are measured prior to or at surgery
 
@@ -68,7 +68,7 @@ Verify no post-baseline variables enter propensity models
 
 Explicitly flag and exclude postoperative complications from adjustment
 
-Weight Construction Diagnostics
+- Weight Construction Diagnostics
 
 Verify propensity score overlap between treatment groups
 
@@ -76,7 +76,7 @@ Inspect stabilized weight distributions
 
 Document truncation thresholds prior to outcome modeling
 
-Internal Consistency Checks
+- Internal Consistency Checks
 
 Compare unweighted baseline characteristics across groups
 
@@ -84,7 +84,7 @@ Verify expected associations (e.g., older age → lower chemotherapy use)
 
 Confirm no implausible effect estimates in early follow-up
 
-Sign-Off
+- Sign-Off
 
 Cohort construction completed without unresolved flags
 
